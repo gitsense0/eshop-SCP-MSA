@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: eshop-currencyservice
-        image: << SCR_Public_Endpoint 입력 >>/eshop-currencyservice:latest
+        image: eshop-nthyipne.scr.kr-west.samsungsdscloud.com/eshop-currencyservice:latest
         ports:
         - containerPort: 8094
         env:

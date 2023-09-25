@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: eshop-backend
-          image: << SCR_Public_Endpoint 입력 >>/eshop-backend:latest
+          image: eshop-nthyipne.scr.kr-west.samsungsdscloud.com/eshop-backend:latest
           ports:
           - containerPort: 8090
           env:

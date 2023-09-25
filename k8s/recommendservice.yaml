@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: eshop-recommendservice
-        image: << SCR_Public_Endpoint 입력 >>/eshop-recommendservice:latest
+        image: eshop-nthyipne.scr.kr-west.samsungsdscloud.com/eshop-recommendservice:latest
         ports:
         - containerPort: 8093
         env:

@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: eshop-cartservice
-          image: << SCR_Public_Endpoint 입력 >>/eshop-cartservice:latest
+          image: eshop-nthyipne.scr.kr-west.samsungsdscloud.com/eshop-cartservice:latest
           ports:
           - containerPort: 8091
           env:
